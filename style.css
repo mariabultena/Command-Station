@@ -1,0 +1,102 @@
+h1{
+  text-shadow: 4px 4px 16px #FFFFFF, -4px -4px 16px #FFFFFF;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, purple, blue);
+}
+
+.calendar {
+  float: left;
+  width: 60%;
+  height: 600px;
+  border: 0;
+
+}
+
+#refresh{
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.weather-app {
+    float: right;
+    width: 35%;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px #888888;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Mono";
+}
+
+.FM {
+  margin-top: 10px;
+  float: right;
+  width: 35%;
+  height: 500px;
+}
+
+.left {
+    float: left;
+    background: #262626;
+    padding:20px;
+    width:30%;
+    height:100%;
+    color:white;
+}
+
+.temperature {
+    margin-top:30px;
+    margin-bottom:5px;
+    font-size:38px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.location {
+    font-size: 18px;
+    width:100%;
+}
+
+.right {
+    float: right;
+    width:60%;
+    height:100%;
+}
+
+.top {
+    height: 70px;
+    width: 100%;
+    
+    background: linear-gradient(#000099, #660066);
+}
+
+.top img {
+    
+    width: 35%;
+}
+
+.bottom {
+    height: 120px;
+    background: linear-gradient(#660066, #330033);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%
+}
+
+.humidity {
+    padding: 8px;
+}
+
+.wind {
+}

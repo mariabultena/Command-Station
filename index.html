@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Command Station</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'
+ 'unsafe-eval'">
+
+	<meta http-equiv="refresh" content="900"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+</head>
+<body>
+<iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=mariabultena%40gmail.com&ctz=America/Los_Angeles"></iframe> 
+
+    <div class="weather-app">
+      <div class="left">
+  <div class="temperature"><span id="temperature">0</span>&deg;</div> 
+  <div class="location"><span id="location">Unknown</span></div>
+      </div>  
+      <div class="right">
+  <div class="top">
+    <img id="icon" width="75px" src="imgs/codes/200.png" />
+  </div>
+
+    <div class="bottom">
+    
+    <div class="humidity">
+      <img src="imgs/humidity.png" height="16px" />
+      <span id="humidity">0</span>%
+    </div>
+    
+    <div class="wind">
+      <span id="wind">0</span> mph <span id="direction">N</span>
+    </div>
+    
+  </div>
+      </div>
+    </div>
+    <img class="FM" src = "https://images.wsdot.wa.gov/tricities/flowmaps/tcfm.png" id = "imgFM"/>
+<FORM>
+    <INPUT ID="refresh" TYPE="button" onClick="myFunction()" VALUE="Refresh">
+  </FORM>
+    <script>
+  function myFunction() {
+      location.reload(true);
+  }
+  </script>
+
+</body>
+</html>
